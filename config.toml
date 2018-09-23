@@ -1,0 +1,5 @@
+host = "localhost:8090"
+base_url = "http://localhost:8090"
+template = "./template"
+root = "./demo"
+file_size = true

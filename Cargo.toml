@@ -1,0 +1,17 @@
+[package]
+name = "fuchsine"
+version = "0.1.0"
+authors = ["Kay <RedL0tus@noreply.github.com>"]
+
+[dependencies]
+log = "~0.4"
+clap = "~2.32"
+toml = "~0.4"
+bytes = "~0.4"
+serde = "~1.0"
+notify = "~4.0"
+futures = "~0.1"
+walkdir = "~2"
+actix-web = "~0.7"
+serde_derive = "~1.0"
+pretty_env_logger = "0.2"
