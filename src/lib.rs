@@ -1,5 +1,3 @@
-#![feature(extern_prelude)]
-
 // Logging
 #[macro_use]
 extern crate log;

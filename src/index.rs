@@ -38,7 +38,7 @@ pub fn generate_index(path: String) -> Result<Index, Box<Error>> {
                 file_info
             );
         } else {
-            println!("Invalid path: {}", real_path.display());
+            error!("Invalid path: {}", real_path.display());
         }
     }
     Ok(index)
